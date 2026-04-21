@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Street Foods</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#fff; }
+    header { background:#111; color:#fff; padding:15px; text-align:center; }
+    .hero {
+      background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') center/cover;
+      color:#fff; text-align:center; padding:80px 20px;
+    }
+    .hero h1 { font-size:32px; margin-bottom:10px; }
+    .btn { background:#ff5722; color:#fff; padding:12px 20px; text-decoration:none; border-radius:6px; display:inline-block; margin-top:10px; }
+    section { padding:20px; }
+    .card {
+      background:#f9f9f9; border-radius:12px; padding:15px; margin-bottom:20px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    }
+    .card h2 { margin:0 0 10px; }
+    .menu img {
+      width:100%; border-radius:10px; margin-bottom:10px;
+    }
+    footer { background:#111; color:#fff; text-align:center; padding:15px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>THE STREET FOODS</h2>
+</header>
+
+<div class="hero">
+  <h1>Three Outlets. One Taste.</h1>
+  <p>Bhaji Pav | Baithak | China Ka Maal</p>
+  <a href="#outlets" class="btn">Explore Menu</a>
+</div>
+
+<section id="outlets">
+  <h2>Our Outlets</h2>
+
+  <div class="card">
+    <h2>Bhaji Pav</h2>
+    <p>Pav Bhaji, Burgers, Sandwiches, Momos, Cold Coffee, Mojito</p>
+    <a href="https://wa.me/917033182192" class="btn">Order on WhatsApp</a>
+  </div>
+
+  <div class="card">
+    <h2>Baithak</h2>
+    <p>Tea, Coffee, Cold Coffee, Sandwiches, Keema Pav, Beverages</p>
+    <a href="https://wa.me/917033182192" class="btn">Order on WhatsApp</a>
+  </div>
+
+  <div class="card">
+    <h2>CHINA KA MAAL</h2>
+    <p>Chinese, Biryani, Kathi Rolls</p>
+    <a href="https://wa.me/917033182192" class="btn">Order on WhatsApp</a>
+  </div>
+
+</section>
+
+<section class="menu">
+  <h2>Menu Highlights</h2>
+  <img src="https://images.unsplash.com/photo-1604908176997-4314d6a5a8d5" alt="Pav Bhaji">
+  <img src="https://images.unsplash.com/photo-1604909053123-78c0e0df3f3f" alt="Momos">
+  <img src="https://images.unsplash.com/photo-1604908177451-746c9df5cbe6" alt="Burger">
+  <img src="https://images.unsplash.com/photo-1604908176991-9b1c0e4c8b62" alt="Biryani">
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Call or WhatsApp us:</p>
+  <a href="tel:+917033182192" class="btn">Call Now</a>
+</section>
+
+<footer>
+  <p>© 2026 The Street Foods</p>
+</footer>
+
+</body>
+</html>
