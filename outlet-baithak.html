@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Baithak | The Street Foods™</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="outlet.css">
+</head>
+<body data-outlet="baithak">
+  <header class="outlet-top">
+    <div class="container top-inner">
+      <a href="index.html" class="back-link">← Back to home</a>
+      <strong>The Street Foods™</strong>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img src="images/baithak.jpg" alt="Baithak cafe food" />
+      <article class="hero-card">
+        <h1 id="outlet-title"></h1>
+        <p id="outlet-subtitle"></p>
+        <ul class="contact-list">
+          <li><strong>Mobile:</strong> <span id="outlet-phone"></span></li>
+          <li><strong>Location:</strong> <a id="outlet-map" target="_blank" rel="noopener">Open map</a></li>
+        </ul>
+        <div class="pill-links">
+          <a class="pill primary" id="outlet-whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="pill" id="outlet-swiggy" target="_blank" rel="noopener">Swiggy</a>
+          <a class="pill" id="outlet-zomato" target="_blank" rel="noopener">Zomato</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="content-grid">
+      <article class="menu-card">
+        <h2>Menu</h2>
+        <div class="menu-list" id="menu-list"></div>
+      </article>
+
+      <aside class="cart-card">
+        <h2>Your cart</h2>
+        <div class="cart-items" id="cart-items"></div>
+        <div class="total-row"><span>Total</span><span id="cart-total">₹0</span></div>
+        <button class="action-btn" id="checkout-btn">Proceed to Buy</button>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">Made with ❤ by The Street Foods™</div>
+  </footer>
+
+  <script src="outlet.js"></script>
+</body>
+</html>

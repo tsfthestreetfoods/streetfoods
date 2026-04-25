@@ -3,226 +3,130 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>THE STREET FOODS™</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    body {
-      background: #f8f8f8;
-      color: #222;
-    }
-
-    /* HERO */
-    .hero {
-      height: 100vh;
-      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-                  url('images/hero.png') center/cover no-repeat;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: white;
-      padding: 20px;
-    }
-
-    .hero h1 {
-      font-size: 48px;
-      font-weight: 800;
-    }
-
-    .hero p {
-      margin-top: 10px;
-      font-size: 18px;
-      opacity: 0.9;
-    }
-
-    .btn {
-      margin-top: 20px;
-      padding: 14px 28px;
-      background: #ff5a2c;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-    }
-
-    /* SECTION */
-    .section {
-      padding: 60px 20px;
-      max-width: 1100px;
-      margin: auto;
-      text-align: center;
-    }
-
-    .section h2 {
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
-
-    .section p {
-      color: #666;
-      margin-bottom: 40px;
-    }
-
-    /* CARDS */
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
-
-    .card {
-      background: white;
-      border-radius: 14px;
-      overflow: hidden;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-    }
-
-    .card img {
-      width: 100%;
-      height: 220px;
-      object-fit: cover;
-    }
-
-    .card-content {
-      padding: 20px;
-      text-align: left;
-    }
-
-    .card h3 {
-      margin-bottom: 10px;
-    }
-
-    .card p {
-      font-size: 14px;
-      color: #666;
-      margin-bottom: 15px;
-    }
-
-    .actions a {
-      display: inline-block;
-      margin-right: 10px;
-      margin-top: 5px;
-      padding: 10px 16px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-size: 14px;
-    }
-
-    .whatsapp {
-      background: #25D366;
-      color: white;
-    }
-
-    .map {
-      background: #eee;
-      color: #333;
-    }
-
-    /* FLOAT BUTTON */
-    .floating-btn {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #ff5a2c;
-      color: white;
-      padding: 14px 20px;
-      border-radius: 50px;
-      text-decoration: none;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-    }
-
-    /* MOBILE */
-    @media(max-width:600px){
-      .hero h1 {
-        font-size: 32px;
-      }
-    }
-  </style>
+  <title>The Street Foods™ | 3 Cravings. 1 Destination.</title>
+  <meta name="description" content="Welcome to The Street Foods™. Discover our story, what customers love, and explore all outlets." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <header class="topbar">
+    <a class="brand" href="index.html">The Street Foods™</a>
+    <nav>
+      <a href="#story">How it started</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#outlets">Explore outlets</a>
+    </nav>
+  </header>
 
-  <!-- HERO -->
   <section class="hero">
-    <div>
-      <h1>THE STREET FOODS™</h1>
-      <p>3 Cravings. 1 Destination.</p>
-      <a href="#outlets" class="btn">Explore Outlets</a>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <p class="eyebrow">Since day one, made with love</p>
+      <h1>Welcome to <span>The Street Foods™</span></h1>
+      <p class="lead">We serve comfort food that feels like home and tastes like celebration. Your cravings, sorted.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#outlets">Explore Our Outlets</a>
+        <a class="btn btn-ghost" href="#story">Our Story</a>
+      </div>
     </div>
   </section>
 
-  <!-- OUTLETS -->
-  <section class="section" id="outlets">
-    <h2>Our Outlets</h2>
-    <p>Each outlet brings you a unique experience</p>
+  <main>
+    <section class="section container" id="story">
+      <div class="split">
+        <article>
+          <h2>How it started</h2>
+          <p>The Street Foods™ started with one simple idea: make local favorites unforgettable with quality, hygiene, and consistency. From one counter to multiple outlets, we have grown because of your trust and love.</p>
+          <p>Today we proudly serve delicious varieties—from chai-time comfort to quick Chinese cravings—while keeping the same soul in every dish.</p>
+        </article>
+        <aside class="highlight-card">
+          <h3>What makes us different</h3>
+          <ul>
+            <li>Fresh ingredients daily</li>
+            <li>Fast service, zero compromise on taste</li>
+            <li>Outlet-specific specialties</li>
+            <li>Easy ordering through WhatsApp</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
 
-    <div class="grid">
-
-      <!-- Bhaji Pav -->
-      <div class="card">
-        <img src="images/bhaji.jpg" alt="Bhaji Pav">
-        <div class="card-content">
-          <h3>Bhaji Pav</h3>
-          <p>Pav Bhaji, Sandwiches, Burgers, Momos, Cold Coffee, Fries & Mocktails</p>
-          <div class="actions">
-            <a class="whatsapp" href="https://wa.me/918409067309">Order</a>
-            <a class="map" href="https://share.google/gjvX9seNaSlevF1n9">Map</a>
-          </div>
+    <section class="section section-muted" id="testimonials">
+      <div class="container">
+        <h2>What customers say</h2>
+        <p class="section-sub">Real love from our regulars 💛</p>
+        <div class="testimonial-grid">
+          <blockquote>
+            “Bhaji Pav taste is exactly what I was missing. Super fresh and quick delivery!”
+            <cite>— Arjun S.</cite>
+          </blockquote>
+          <blockquote>
+            “Baithak is my daily chai stop now. Cozy vibe and amazing bun maska.”
+            <cite>— Nisha K.</cite>
+          </blockquote>
+          <blockquote>
+            “China Ka Maal rolls are addictive. Perfect late-night craving fix.”
+            <cite>— Rohit M.</cite>
+          </blockquote>
         </div>
       </div>
+    </section>
 
-      <!-- Baithak -->
-      <div class="card">
-        <img src="images/baithak.jpg" alt="Baithak">
-        <div class="card-content">
-          <h3>Baithak</h3>
-          <p>Tea, Coffee, Bun Maska, Sandwiches, Maggie, Omelette & Beverages</p>
-          <div class="actions">
-            <a class="whatsapp" href="https://wa.me/918409067309">Order</a>
-            <a class="map" href="https://share.google/8egLSYewcyZuOjMww">Map</a>
+    <section class="section container" id="outlets">
+      <h2>Explore Our Outlets</h2>
+      <p class="section-sub">Choose an outlet to view its menu, location, and order options.</p>
+
+      <div class="outlet-grid">
+        <a class="outlet-card" href="outlet-bhaji-pav.html" aria-label="Open Bhaji Pav outlet page">
+          <img src="images/bhaji.jpg" alt="Bhaji Pav dishes">
+          <div class="outlet-content">
+            <h3>Bhaji Pav</h3>
+            <p>Pav Bhaji, Sandwiches, Burgers, Momos, Cold Coffee, Fries & Mocktails</p>
+            <span class="card-link">Visit outlet page →</span>
           </div>
-        </div>
-      </div>
+        </a>
 
-      <!-- China Ka Maal -->
-      <div class="card">
-        <img src="images/china.jpg" alt="China Ka Maal">
-        <div class="card-content">
-          <h3>China Ka Maal</h3>
-          <p>Chinese, Chilli, Biryani & Kathi Rolls</p>
-          <div class="actions">
-            <a class="whatsapp" href="https://wa.me/917033182192">Order</a>
-            <a class="map" href="https://share.google/0GJ7uHHTRGUVC8TvQ">Map</a>
+        <a class="outlet-card" href="outlet-baithak.html" aria-label="Open Baithak outlet page">
+          <img src="images/baithak.jpg" alt="Baithak cafe food and tea">
+          <div class="outlet-content">
+            <h3>Baithak</h3>
+            <p>Tea, Coffee, Bun Maska, Sandwiches, Maggie, Omelette & Beverages</p>
+            <span class="card-link">Visit outlet page →</span>
           </div>
-        </div>
-      </div>
+        </a>
 
+        <a class="outlet-card" href="outlet-china-ka-maal.html" aria-label="Open China Ka Maal outlet page">
+          <img src="images/china.jpg" alt="China Ka Maal food items">
+          <div class="outlet-content">
+            <h3>China Ka Maal</h3>
+            <p>Chinese, Chilli, Biryani & Kathi Rolls</p>
+            <span class="card-link">Visit outlet page →</span>
+          </div>
+        </a>
+
+        <article class="outlet-card coming-soon" aria-label="4th outlet coming soon">
+          <div class="coming-soon-inner">
+            <p class="badge">Launching Soon</p>
+            <h3>Outlet #4</h3>
+            <p>Something exciting is cooking! Stay tuned for our next location.</p>
+            <button class="btn btn-primary" disabled>Coming soon</button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> The Street Foods™. All rights reserved.</p>
+      <a href="#outlets">Order now</a>
     </div>
-  </section>
+  </footer>
 
-  <!-- FLOATING BUTTON -->
-  <a href="https://wa.me/918409067309" class="floating-btn">
-    Order Now
-  </a>
-
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
