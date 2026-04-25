@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="outlet.css">
+  <link rel="stylesheet" href="outlet.css?v=20260425-2">
 </head>
 <body data-outlet="bhaji-pav">
   <header class="outlet-top">
@@ -41,11 +41,11 @@
         <div class="menu-list" id="menu-list"></div>
       </article>
 
-      <aside class="cart-card">
+      <aside class="cart-card cart-summary-card">
         <h2>Your cart</h2>
-        <div class="cart-items" id="cart-items"></div>
-        <div class="total-row"><span>Total</span><span id="cart-total">₹0</span></div>
-        <button class="action-btn" id="checkout-btn">Proceed to Buy</button>
+        <p class="cart-summary-text"><span id="cart-count">0 items</span> added</p>
+        <div class="total-row"><span>Total</span><span id="cart-total">&#8377;0</span></div>
+        <button class="action-btn" id="view-cart-btn" type="button" disabled>View Cart</button>
       </aside>
     </section>
   </main>
@@ -54,6 +54,6 @@
     <div class="container">Made with ❤ by The Street Foods™</div>
   </footer>
 
-  <script src="outlet.js"></script>
+  <script src="outlet.js?v=20260425-2"></script>
 </body>
 </html>
