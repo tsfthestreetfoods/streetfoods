@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart | The Street Foods&trade;</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="outlet.css">
+</head>
+<body>
+  <header class="outlet-top">
+    <div class="container top-inner">
+      <a href="index.html" class="back-link">&larr; Back to home</a>
+      <strong>The Street Foods&trade;</strong>
+    </div>
+  </header>
+
+  <main class="container cart-page">
+    <section class="cart-hero">
+      <div>
+        <p class="eyebrow">Order summary</p>
+        <h1>Your Cart</h1>
+        <p id="cart-outlet-name">Review items before placing your order.</p>
+      </div>
+      <a class="pill" id="continue-shopping" href="index.html">Continue shopping</a>
+    </section>
+
+    <section class="cart-detail-grid">
+      <article class="cart-detail-card">
+        <h2>Items</h2>
+        <div class="cart-detail-list" id="cart-detail-list"></div>
+      </article>
+
+      <aside class="cart-total-card">
+        <h2>Bill details</h2>
+        <div class="bill-row"><span>Items</span><span id="bill-count">0</span></div>
+        <div class="bill-row total-row"><span>Total</span><span id="bill-total">&#8377;0</span></div>
+        <button class="action-btn" id="checkout-btn" type="button">Proceed to Buy</button>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">Made with &hearts; by The Street Foods&trade;</div>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>
